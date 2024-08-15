@@ -10,7 +10,7 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument(
             'robot_description',
-            default_value='$(find combined_gp7_description)/urdf/combined_robot.xacro',
+            default_value='$(find combined_gp7_description)/urdf/combined_gp7.urdf.xacro',
             description='Path to the combined robot URDF file'),
 
         # Log the path to the robot description file
