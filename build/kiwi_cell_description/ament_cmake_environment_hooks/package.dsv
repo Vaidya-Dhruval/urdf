@@ -1,0 +1,4 @@
+source;share/kiwi_cell_description/local_setup.bash
+source;share/kiwi_cell_description/local_setup.dsv
+source;share/kiwi_cell_description/local_setup.sh
+source;share/kiwi_cell_description/local_setup.zsh

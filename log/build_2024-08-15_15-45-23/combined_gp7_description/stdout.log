@@ -1,0 +1,25 @@
+-- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/adm-vsp-dv/urdf_update/urdf/build/combined_gp7_description
+-- Install configuration: ""
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/combined_gp7_description/urdf/urdf
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/combined_gp7_description/urdf/urdf/combined_gp7.urdf.xacro
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/combined_gp7_description/launch/launch
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/combined_gp7_description/launch/launch/combined_gp7.launch.py
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/ament_index/resource_index/package_run_dependencies/combined_gp7_description
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/ament_index/resource_index/parent_prefix_path/combined_gp7_description
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/combined_gp7_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/combined_gp7_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/combined_gp7_description/environment/path.sh
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/combined_gp7_description/environment/path.dsv
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/combined_gp7_description/local_setup.bash
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/combined_gp7_description/local_setup.sh
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/combined_gp7_description/local_setup.zsh
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/combined_gp7_description/local_setup.dsv
+-- Installing: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/combined_gp7_description/package.dsv
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/ament_index/resource_index/packages/combined_gp7_description
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/combined_gp7_description/cmake/combined_gp7_descriptionConfig.cmake
+-- Up-to-date: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/combined_gp7_description/cmake/combined_gp7_descriptionConfig-version.cmake
+-- Installing: /home/adm-vsp-dv/urdf_update/urdf/install/combined_gp7_description/share/combined_gp7_description/package.xml

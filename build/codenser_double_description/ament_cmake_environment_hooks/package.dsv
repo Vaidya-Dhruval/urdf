@@ -1,0 +1,4 @@
+source;share/codenser_double_description/local_setup.bash
+source;share/codenser_double_description/local_setup.dsv
+source;share/codenser_double_description/local_setup.sh
+source;share/codenser_double_description/local_setup.zsh

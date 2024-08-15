@@ -1,0 +1,1 @@
+/home/adm-vsp-dv/urdf_update/urdf/component_models-main/std_components/m_4730788_001/m_4730788_001_moveit_config_pkg/launch/setup_assistant.launch.py

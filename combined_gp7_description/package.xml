@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>combined_gp7_description</name>
+  <version>0.0.1</version>
+  <description>A package for the combined robot model</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache 2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>xacro</depend>
+  <depend>rviz2</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>joint_state_publisher</depend>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

@@ -1,0 +1,4 @@
+Invoking command in '/home/adm-vsp-dv/urdf_update/urdf/build/combined_gp7_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adm-vsp-dv/urdf_update/urdf/build/combined_gp7_description -- -j8 -l8
+Invoked command in '/home/adm-vsp-dv/urdf_update/urdf/build/combined_gp7_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adm-vsp-dv/urdf_update/urdf/build/combined_gp7_description -- -j8 -l8
+Invoking command in '/home/adm-vsp-dv/urdf_update/urdf/build/combined_gp7_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adm-vsp-dv/urdf_update/urdf/build/combined_gp7_description
+Invoked command in '/home/adm-vsp-dv/urdf_update/urdf/build/combined_gp7_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adm-vsp-dv/urdf_update/urdf/build/combined_gp7_description

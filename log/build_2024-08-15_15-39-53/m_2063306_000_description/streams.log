@@ -1,0 +1,49 @@
+[0.038s] Invoking command in '/home/adm-vsp-dv/urdf_update/urdf/build/m_2063306_000_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/adm-vsp-dv/urdf_update/urdf/component_models-main/std_components/m_2063306_000/m_2063306_000_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description
+[0.174s] -- The C compiler identification is GNU 13.2.0
+[0.282s] -- The CXX compiler identification is GNU 13.2.0
+[0.327s] -- Detecting C compiler ABI info
+[0.494s] -- Detecting C compiler ABI info - done
+[0.536s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.536s] -- Detecting C compile features
+[0.536s] -- Detecting C compile features - done
+[0.549s] -- Detecting CXX compiler ABI info
+[0.749s] -- Detecting CXX compiler ABI info - done
+[0.798s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.798s] -- Detecting CXX compile features
+[0.800s] -- Detecting CXX compile features - done
+[0.813s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[1.197s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.353s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.667s] -- Configuring done (1.6s)
+[1.672s] -- Generating done (0.0s)
+[1.674s] -- Build files have been written to: /home/adm-vsp-dv/urdf_update/urdf/build/m_2063306_000_description
+[1.687s] Invoked command in '/home/adm-vsp-dv/urdf_update/urdf/build/m_2063306_000_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/adm-vsp-dv/urdf_update/urdf/component_models-main/std_components/m_2063306_000/m_2063306_000_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description
+[1.688s] Invoking command in '/home/adm-vsp-dv/urdf_update/urdf/build/m_2063306_000_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adm-vsp-dv/urdf_update/urdf/build/m_2063306_000_description -- -j8 -l8
+[1.751s] Invoked command in '/home/adm-vsp-dv/urdf_update/urdf/build/m_2063306_000_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adm-vsp-dv/urdf_update/urdf/build/m_2063306_000_description -- -j8 -l8
+[1.787s] Invoking command in '/home/adm-vsp-dv/urdf_update/urdf/build/m_2063306_000_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adm-vsp-dv/urdf_update/urdf/build/m_2063306_000_description
+[1.800s] -- Install configuration: ""
+[1.801s] -- Execute custom install script
+[1.801s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/config/joint_names_m_2063306_000.yaml
+[1.826s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/launch/display.launch
+[1.837s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/launch/gazebo.launch
+[1.854s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/meshes/base_link.STL
+[1.866s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/meshes/link_1.STL
+[1.881s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/urdf/m_2063306_000.csv
+[1.899s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/urdf/m_2063306_000.urdf
+[1.924s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/urdf/m_2063306_000.urdf.xacro
+[1.943s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/ament_index/resource_index/package_run_dependencies/m_2063306_000_description
+[1.957s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/ament_index/resource_index/parent_prefix_path/m_2063306_000_description
+[1.970s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/environment/ament_prefix_path.sh
+[1.985s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/environment/ament_prefix_path.dsv
+[1.999s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/environment/path.sh
+[2.014s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/environment/path.dsv
+[2.030s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/local_setup.bash
+[2.046s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/local_setup.sh
+[2.061s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/local_setup.zsh
+[2.076s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/local_setup.dsv
+[2.089s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/package.dsv
+[2.105s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/ament_index/resource_index/packages/m_2063306_000_description
+[2.117s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/cmake/m_2063306_000_descriptionConfig.cmake
+[2.134s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/cmake/m_2063306_000_descriptionConfig-version.cmake
+[2.149s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/m_2063306_000_description/share/m_2063306_000_description/package.xml
+[2.174s] Invoked command in '/home/adm-vsp-dv/urdf_update/urdf/build/m_2063306_000_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adm-vsp-dv/urdf_update/urdf/build/m_2063306_000_description

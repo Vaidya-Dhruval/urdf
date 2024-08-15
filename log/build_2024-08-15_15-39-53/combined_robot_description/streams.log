@@ -1,0 +1,30 @@
+[0.070s] Invoking command in '/home/adm-vsp-dv/urdf_update/urdf/build/combined_robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/adm-vsp-dv/urdf_update/urdf/combined_gp7_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/adm-vsp-dv/urdf_update/urdf/install/combined_robot_description
+[0.199s] -- The C compiler identification is GNU 13.2.0
+[0.353s] -- The CXX compiler identification is GNU 13.2.0
+[0.412s] -- Detecting C compiler ABI info
+[0.617s] -- Detecting C compiler ABI info - done
+[0.648s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.650s] -- Detecting C compile features
+[0.651s] -- Detecting C compile features - done
+[0.678s] -- Detecting CXX compiler ABI info
+[1.003s] -- Detecting CXX compiler ABI info - done
+[1.061s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.061s] -- Detecting CXX compile features
+[1.062s] -- Detecting CXX compile features - done
+[1.070s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[1.600s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.884s] -- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[2.035s] WARNING: Metapackage "combined_robot_description" must buildtool_depend on catkin.
+[2.035s] WARNING: Metapackage "combined_robot_description" should not have other dependencies besides a buildtool_depend on catkin and exec_depends.
+[2.064s] [31mCMake Error at /opt/ros/rolling/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[2.064s]   ament_package_xml() package name 'combined_robot_description' in
+[2.064s]   '/package.xml' does not match current PROJECT_NAME
+[2.064s]   'combined_gp7_description'.  You must call project() with the same package
+[2.065s]   name before.
+[2.065s] Call Stack (most recent call first):
+[2.065s]   /opt/ros/rolling/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.065s]   CMakeLists.txt:30 (ament_lint_auto_find_test_dependencies)
+[2.065s] 
+[2.065s] [0m
+[2.065s] -- Configuring incomplete, errors occurred!
+[2.076s] Invoked command in '/home/adm-vsp-dv/urdf_update/urdf/build/combined_robot_description' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/adm-vsp-dv/urdf_update/urdf/combined_gp7_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/adm-vsp-dv/urdf_update/urdf/install/combined_robot_description

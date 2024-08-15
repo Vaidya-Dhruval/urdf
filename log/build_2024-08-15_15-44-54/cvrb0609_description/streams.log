@@ -1,0 +1,32 @@
+[0.096s] Invoking command in '/home/adm-vsp-dv/urdf_update/urdf/build/cvrb0609_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adm-vsp-dv/urdf_update/urdf/build/cvrb0609_description -- -j8 -l8
+[0.166s] Invoked command in '/home/adm-vsp-dv/urdf_update/urdf/build/cvrb0609_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adm-vsp-dv/urdf_update/urdf/build/cvrb0609_description -- -j8 -l8
+[0.215s] Invoking command in '/home/adm-vsp-dv/urdf_update/urdf/build/cvrb0609_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adm-vsp-dv/urdf_update/urdf/build/cvrb0609_description
+[0.227s] -- Install configuration: ""
+[0.229s] -- Execute custom install script
+[0.230s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/launch/display.launch.py
+[0.230s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/meshes/J1.dae
+[0.231s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/meshes/J2.dae
+[0.231s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/meshes/J3.dae
+[0.235s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/meshes/J4.dae
+[0.235s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/meshes/J5.dae
+[0.240s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/meshes/J6.dae
+[0.240s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/meshes/base_link.dae
+[0.242s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/urdf/cvrb0609.urdf.xacro
+[0.242s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/urdf/example_cvrb0609.urdf.xacro
+[0.247s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/urdf/home_joint_values.png
+[0.247s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/ament_index/resource_index/package_run_dependencies/cvrb0609_description
+[0.248s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/ament_index/resource_index/parent_prefix_path/cvrb0609_description
+[0.248s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/environment/ament_prefix_path.sh
+[0.248s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/environment/ament_prefix_path.dsv
+[0.249s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/environment/path.sh
+[0.250s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/environment/path.dsv
+[0.250s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/local_setup.bash
+[0.251s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/local_setup.sh
+[0.252s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/local_setup.zsh
+[0.253s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/local_setup.dsv
+[0.255s] -- Symlinking: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/package.dsv
+[0.276s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/ament_index/resource_index/packages/cvrb0609_description
+[0.276s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/cmake/cvrb0609_descriptionConfig.cmake
+[0.277s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/cmake/cvrb0609_descriptionConfig-version.cmake
+[0.278s] -- Up-to-date symlink: /home/adm-vsp-dv/urdf_update/urdf/install/cvrb0609_description/share/cvrb0609_description/package.xml
+[0.294s] Invoked command in '/home/adm-vsp-dv/urdf_update/urdf/build/cvrb0609_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adm-vsp-dv/urdf_update/urdf/build/cvrb0609_description

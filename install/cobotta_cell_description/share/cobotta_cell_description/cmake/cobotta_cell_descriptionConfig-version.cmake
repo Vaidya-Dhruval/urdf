@@ -1,0 +1,1 @@
+/home/adm-vsp-dv/urdf_update/urdf/build/cobotta_cell_description/ament_cmake_core/cobotta_cell_descriptionConfig-version.cmake

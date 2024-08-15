@@ -1,0 +1,4 @@
+source;share/combined_gp7_description/local_setup.bash
+source;share/combined_gp7_description/local_setup.dsv
+source;share/combined_gp7_description/local_setup.sh
+source;share/combined_gp7_description/local_setup.zsh

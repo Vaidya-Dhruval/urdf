@@ -1,0 +1,25 @@
+[0.022s] Invoking command in '/home/adm-vsp-dv/urdf_update/urdf/build/motoman_resources': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/adm-vsp-dv/urdf_update/urdf/motoman_resources -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adm-vsp-dv/urdf_update/urdf/install/motoman_resources
+[1.766s] -- The C compiler identification is GNU 13.2.0
+[1.767s] -- The CXX compiler identification is GNU 13.2.0
+[1.767s] -- Detecting C compiler ABI info
+[1.767s] -- Detecting C compiler ABI info - done
+[1.767s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.767s] -- Detecting C compile features
+[1.767s] -- Detecting C compile features - done
+[1.768s] -- Detecting CXX compiler ABI info
+[1.768s] -- Detecting CXX compiler ABI info - done
+[1.768s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.768s] -- Detecting CXX compile features
+[1.768s] -- Detecting CXX compile features - done
+[1.768s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[1.769s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.769s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.769s] -- Found xacro: 2.0.11 (/opt/ros/rolling/share/xacro/cmake)
+[1.769s] -- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[1.951s] -- Added test 'lint_cmake' to check CMake code style
+[1.952s] -- Added test 'xmllint' to check XML markup files
+[1.953s] -- Configuring done (1.9s)
+[1.961s] -- Generating done (0.0s)
+[1.965s] -- Build files have been written to: /home/adm-vsp-dv/urdf_update/urdf/build/motoman_resources
+[1.972s] Invoked command in '/home/adm-vsp-dv/urdf_update/urdf/build/motoman_resources' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/adm-vsp-dv/urdf_update/urdf/motoman_resources -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adm-vsp-dv/urdf_update/urdf/install/motoman_resources
+[1.974s] Invoking command in '/home/adm-vsp-dv/urdf_update/urdf/build/motoman_resources': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adm-vsp-dv/urdf_update/urdf/build/motoman_resources -- -j8 -l8

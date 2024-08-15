@@ -1,0 +1,4 @@
+source;share/codenser_moveit_config_pkg/local_setup.bash
+source;share/codenser_moveit_config_pkg/local_setup.dsv
+source;share/codenser_moveit_config_pkg/local_setup.sh
+source;share/codenser_moveit_config_pkg/local_setup.zsh

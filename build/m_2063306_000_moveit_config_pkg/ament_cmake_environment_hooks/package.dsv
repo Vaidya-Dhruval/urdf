@@ -1,0 +1,4 @@
+source;share/m_2063306_000_moveit_config_pkg/local_setup.bash
+source;share/m_2063306_000_moveit_config_pkg/local_setup.dsv
+source;share/m_2063306_000_moveit_config_pkg/local_setup.sh
+source;share/m_2063306_000_moveit_config_pkg/local_setup.zsh

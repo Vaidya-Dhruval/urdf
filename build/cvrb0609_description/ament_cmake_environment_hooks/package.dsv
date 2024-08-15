@@ -1,0 +1,4 @@
+source;share/cvrb0609_description/local_setup.bash
+source;share/cvrb0609_description/local_setup.dsv
+source;share/cvrb0609_description/local_setup.sh
+source;share/cvrb0609_description/local_setup.zsh
