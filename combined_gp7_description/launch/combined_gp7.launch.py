@@ -10,16 +10,25 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument(
             'robot_description',
-            default_value='$(find combined_gp7_description)/urdf/combined_robot.xacro',
-            description='Path to the combined robot URDF file'),
+            default_value='$(find combined_gp7_description)/urdf/combined_gp7.urdf.xacro',
+            description='Path to the combined robot URDF Xacro file'),
 
         # Log the path to the robot description file
         LogInfo(
-            condition=LaunchConfiguration('robot_description'),
-            msg='Loading robot description from: ' + LaunchConfiguration('robot_description')
+            msg='Loading robot description from: ' + LaunchConfiguration('robot_description').perform({}),
         ),
 
-        # Node to load the robot description parameter
+        # Node to process Xacro and load the robot description parameter
+        Node(
+            package='xacro',
+            executable='xacro',
+            name='xacro_to_urdf',
+            output='screen',
+            parameters=[{'robot_description': LaunchConfiguration('robot_description')}],
+            arguments=[LaunchConfiguration('robot_description')],
+        ),
+
+        # Node to publish the robot state
         Node(
             package='robot_state_publisher',
             executable='robot_state_publisher',
