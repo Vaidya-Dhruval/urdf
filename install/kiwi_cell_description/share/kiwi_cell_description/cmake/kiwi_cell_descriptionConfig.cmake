@@ -1,1 +1,0 @@
-/home/adm-vsp-dv/urdf_update/urdf/build/kiwi_cell_description/ament_cmake_core/kiwi_cell_descriptionConfig.cmake

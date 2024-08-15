@@ -1,1 +1,0 @@
-/home/adm-vsp-dv/urdf_update/urdf/component_models-main/machines/codenser/codenser_moveit_config_pkg/launch/setup_assistant.launch.py

@@ -1,2 +1,0 @@
-WARNING: Metapackage "combined_gp7_description" must buildtool_depend on catkin.
-WARNING: Metapackage "combined_gp7_description" should not have other dependencies besides a buildtool_depend on catkin and exec_depends.

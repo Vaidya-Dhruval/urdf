@@ -1,9 +1,0 @@
-WARNING: Metapackage "combined_gp7_description" must buildtool_depend on catkin.
-WARNING: Metapackage "combined_gp7_description" should not have other dependencies besides a buildtool_depend on catkin and exec_depends.
-[33mCMake Warning:
-  Manually-specified variables were not used by the project:
-
-    CATKIN_INSTALL_INTO_PREFIX_ROOT
-    CATKIN_SYMLINK_INSTALL
-
-[0m

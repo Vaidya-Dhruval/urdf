@@ -1,1 +1,0 @@
-/home/adm-vsp-dv/urdf_update/urdf/build/motoman_gp7_description/ament_cmake_core/motoman_gp7_descriptionConfig-version.cmake
