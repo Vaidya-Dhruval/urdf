@@ -1,14 +1,22 @@
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
-from launch.substitutions import LaunchConfiguration
+from launch.substitutions import LaunchConfiguration, Command
 from launch_ros.actions import Node
 
 def generate_launch_description():
     return LaunchDescription([
+        # Declare the RViz config file path argument
         DeclareLaunchArgument(
             'rviz_config',
             default_value='rviz/view_robot.rviz',
             description='Path to the RViz config file'
+        ),
+
+        # Declare the URDF file path argument
+        DeclareLaunchArgument(
+            'urdf_file',
+            default_value='urdf/combined_robot_description.urdf.xacro',
+            description='Path to the URDF/Xacro file'
         ),
         
         # Launch robot state publisher
@@ -17,7 +25,6 @@ def generate_launch_description():
             executable='robot_state_publisher',
             output='screen',
             parameters=[{'robot_description': Command(['xacro ', LaunchConfiguration('urdf_file')])}],
-            arguments=[LaunchConfiguration('urdf_file')],
         ),
         
         # Launch joint state publisher
