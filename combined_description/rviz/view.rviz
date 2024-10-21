@@ -6,8 +6,8 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
+        - /Grid1
         - /RobotModel1
-        - /RobotModel1/Status1
       Splitter Ratio: 0.5
     Tree Height: 542
   - Class: rviz_common/Selection
@@ -47,14 +47,14 @@ Visualization Manager:
         Z: 0
       Plane: XY
       Plane Cell Count: 10
-      Reference Frame: <Fixed Frame>
+      Reference Frame: kiwi_base_link
       Value: true
     - Alpha: 1
       Class: rviz_default_plugins/RobotModel
       Collision Enabled: false
       Description File: ""
       Description Source: Topic
-      Description Topic:
+      Description Topic: /robot_description
         Depth: 5
         Durability Policy: Volatile
         History Policy: Keep Last
@@ -128,63 +128,6 @@ Visualization Manager:
       Update Interval: 0
       Value: true
       Visual Enabled: true
-    - Class: rviz_default_plugins/TF
-      Enabled: true
-      Filter (blacklist): ""
-      Filter (whitelist): ""
-      Frame Timeout: 15
-      Frames:
-        All Enabled: true
-        base_link:
-          Value: true
-        gp7_base:
-          Value: true
-        gp7_base_link:
-          Value: true
-        gp7_link_1_s:
-          Value: true
-        gp7_link_2_l:
-          Value: true
-        gp7_link_3_u:
-          Value: true
-        gp7_link_4_r:
-          Value: true
-        gp7_link_5_b:
-          Value: true
-        gp7_link_6_t:
-          Value: true
-        gp7_tool0:
-          Value: true
-        kiwi_base_link:
-          Value: true
-        kiwi_robot_base_plate_link:
-          Value: true
-        map:
-          Value: true
-      Marker Scale: 1
-      Name: TF
-      Show Arrows: true
-      Show Axes: true
-      Show Names: false
-      Tree:
-        kiwi_base_link:
-          kiwi_robot_base_plate_link:
-            gp7_base_link:
-              gp7_base:
-                {}
-              gp7_link_1_s:
-                gp7_link_2_l:
-                  gp7_link_3_u:
-                    gp7_link_4_r:
-                      gp7_link_5_b:
-                        gp7_link_6_t:
-                          gp7_tool0:
-                            {}
-        map:
-          base_link:
-            {}
-      Update Interval: 0
-      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -231,25 +174,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 10.063986778259277
+      Distance: 2.666421890258789
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.00646689347922802
-        Y: -0.006466894410550594
-        Z: -1.7462298274040222e-10
+        X: 0
+        Y: 0
+        Z: 0
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.8197970390319824
+      Pitch: 0.785398006439209
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 5.298552513122559
+      Yaw: 0.785398006439209
     Saved: ~
 Window Geometry:
   Displays:
@@ -267,5 +210,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1200
-  X: 66
+  X: 60
   Y: 60
